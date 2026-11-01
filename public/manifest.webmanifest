@@ -1,0 +1,97 @@
+{
+  "id": "/",
+  "name": "MindRush IQ — Brain Training Arcade",
+  "short_name": "MindRush IQ",
+  "description": "Train your brain with speed math, vocabulary recall, and sequence pattern puzzles in a high-octane neon runner.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#0a0a12",
+  "theme_color": "#0a0a12",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "education", "puzzle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "MindRush IQ Mobile Arena"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1024x576",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "MindRush IQ Desktop Mode"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Speed Math Challenge",
+      "short_name": "Math",
+      "description": "Fast mental arithmetic reflex test",
+      "url": "/?mode=math",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Vocabulary Workout",
+      "short_name": "Vocab",
+      "description": "Lexical recall and synonyms",
+      "url": "/?mode=vocab",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Pattern IQ Sequence",
+      "short_name": "Patterns",
+      "description": "Number sequence inductive logic",
+      "url": "/?mode=pattern",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "edge_side_panel": {
+    "preferred_width": 420
+  },
+  "launch_handler": {
+    "client_mode": "auto"
+  }
+}

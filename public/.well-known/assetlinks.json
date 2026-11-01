@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.mindrush_iq_new.twa",
+      "sha256_cert_fingerprints": [
+        "CD:74:38:ED:11:51:06:A7:53:EC:FD:DB:8D:33:78:ED:4F:AE:B5:45:4A:7A:98:F8:05:55:92:F4:D5:B1:AF:28",
+        "7C:50:40:79:1E:E1:35:C4:E3:8F:7E:08:90:C7:CD:F4:43:74:79:0F:3D:43:5F:CE:4B:8D:26:98:90:DB:40:08"
+      ]
+    }
+  }
+]

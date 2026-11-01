@@ -1,0 +1,6 @@
+{
+  "name": "MindRush IQ",
+  "description": "High-octane neon brain training arcade game. Sharpen focus, reflexes, and cognitive agility with fast-paced math, vocabulary, and pattern recognition challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
